@@ -1,0 +1,352 @@
+*{
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+/*Cabecalho com as informações*/
+header{
+  background-color: #F0F0F0;
+  width: 100%;
+  height:60px;
+  display: flex;
+  flex-direction: row;
+  position: fixed;
+}
+/*Itens do cabecalho*/
+.logotipo{
+  width: 15%;
+  height: 100%;
+  margin-left: 100px;
+}
+.logotipo img{
+  width: 100%;
+  height: 100%;
+}
+.pesquisa{
+  width:15%;
+  height: 100%;
+  margin-left: 250px;
+  background-color: #F0F0F0;
+  display: flex;
+  flex-direction: row;
+}
+.icone_busca{
+  width: 15%;
+  height: 45%;
+  background-color: aqua;
+  margin-top: 9%;
+  margin-left: 1.5%;
+}
+.icone_casa{
+  width:4%;
+  height: 80%;
+  margin-top: 6px;
+  margin-left: 100px;/*entre os icones margin-left de 10px esta otimo*/
+  background-color: #FFF;
+}
+.icone_casa img{
+  width: 100%;
+  height: 100%;
+}
+.texto_busca{
+  width:75%;
+  height: 30%;
+  margin-top: 10%;
+  margin-right: 6%;
+}
+.texto_busca p{
+  color:#92908E;
+}
+.icone{
+  width:4%;
+  height: 80%;
+  margin-top: 6px;
+  margin-left: 10px;/*entre os icones margin-left de 10px esta otimo*/
+}
+.icone img{
+  width: 100%;
+  height: 100%;
+}
+.icone_busca img{
+  width: 100%;
+  height: 100%;
+}
+/*Pagina principal do site*/
+.paginaSite{
+  width: 100%;
+  height: 1000px;
+  display: flex;
+  flex-direction: row;
+  background-color: #FFFFFF;
+}
+.conteudo{
+  margin-top: 80px;
+  width: 40%;
+  height: 100%;
+  background-color: #FFFFFF;
+  margin-left: 200px;
+}
+/*"Classe" do conteudo do site:*/
+.box{
+  width: 100%;
+  height:60%;
+  background-color: #F0F0F0;
+  margin-top: 10px;
+}
+.nome_perfil{
+  display: flex;
+  flex-direction: row;
+  width:100%;
+  height: 8%;
+  background-color: #F0F0F0;
+}
+.foto{
+  width: 15%;
+  height: 100%;
+  background-color: #F0F0F0;
+}
+.foto img{
+  width: 100%;
+  height: 100%;
+}
+.nome{
+  width: 170px;
+  height: 100%;
+  text-align: center;
+  margin-top: 2%;
+
+
+}
+.reticiencias{
+  width: 7%;
+  height: 60%;
+  margin-left: 330px;
+  margin-right: 10px;
+  margin-top: 1.6%;
+}
+.reticiencias img{
+  width: 100%;
+  height: 100%;
+}
+.fotenha{
+  width: 100%;
+  height: 60%;
+  background-color: violet;
+}
+.fotenha img{
+  width: 100%;
+  height: 100%;
+}
+.foto_opcoes{
+  width: 100%;
+  height: 8%;
+  background-color: #F0F0F0;
+  display: flex;
+  flex-direction: row;
+}
+.icone_tipo{
+  width:8%;
+  height: 80%;
+  margin-top: 6px;
+  margin-left: 10px;/*entre os icones margin-left de 10px esta otimo*/
+  background-color: blueviolet;
+}
+.icone_tipo img{
+  width: 100%;
+  height: 100%;
+}
+.icone_bandeira{
+  width:8%;
+  height: 80%;
+  margin-top: 6px;
+  margin-left: 330px;/*entre os icones margin-left de 10px esta otimo*/
+  background-color: blueviolet;
+}
+.icone_bandeira img{
+  width: 100%;
+  height: 100%;
+}
+.descricao{
+  width: 100%;
+  height: 15%;
+  background-color: yellow;
+}
+.curtidas{
+  width: 100%;
+  height: 40%;
+  background-color: #F0F0F0;
+  display:flex;
+  flex-direction: row;
+}
+.foto_pequena{
+  width:7%;
+  height: 100%;
+  background-color: #F0F0F0;
+  mask-size: auto;
+  margin-left: 10px;
+}
+.foto_pequena img{
+  width: 100%;
+  height: 100%;
+}
+.nome_curtidas{
+  width: 92%;
+  height: 100%;
+  margin-top: 1%;
+}
+.foto_descricao{
+  width: 100%;
+  height: 60%;
+  background-color: #F0F0F0;
+}
+.bloco_comentario{
+  width: 96%;
+  height: 100%;
+  background-color: #F0F0F0;
+  margin-left: 2%;
+}
+.adicionar_comentario{
+  width: 100%;
+  height: 6%;
+  background-color: #F0F0F0;
+  display: flex;
+  flex-direction: row;
+  margin-top: 5px;
+}
+.icone_type{
+  width:8%;
+  height: 100%;
+  margin-left: 10px;/*entre os icones margin-left de 10px esta otimo*/
+  background-color: #F0F0F0;
+}
+.icone_type img{
+  width: 100%;
+  height: 100%;
+}
+.Add{
+  width:40%;
+  height: 100%;
+  margin-left: 10px;/*entre os icones margin-left de 10px esta otimo*/
+  background-color: #F0F0F0;
+  margin-top: 8px;
+
+}
+.Add p{
+  color: #92908E;
+}
+.Publicar{
+  width:15%;
+  height: 100%;
+  margin-left: 40%;/*entre os icones margin-left de 10px esta otimo*/
+  background-color: #F0F0F0;
+  margin-top: 8px;
+}
+.Publicar p{
+  color: #0000FF;
+}
+/*Feed e pessoas para você seguir*/
+.perfil{
+  width: 20%;
+  height: 45%;
+  background-color: #FFF;
+  margin-left: 20px;
+  position: fixed;
+  left: 750px;
+  top: 90px;
+}
+.foto_seu_perfil{
+  width: 100%;
+  height: 18%;
+  background-color: white;
+  display: flex;
+  flex-direction: row;
+}
+.fotona{
+  height: 100%;
+  width: 25%;
+  background-color: white;
+}
+.fotona img{
+  width: 100%;
+  height: 100%;
+}
+.nome_lado_perfil{
+  height: 80%;
+  width: 35%;
+  background-color: #FFF;
+  margin: auto;
+
+}
+.mudar_perfil{
+  height: 100%;
+  width: 20%;
+  background-color: white;
+  margin-left: 18%;
+
+}
+.mudar_perfil p{
+  color: #0000FF;
+  margin-top: 15px;
+  margin-left: 5px;
+  margin-right: 10px;
+}
+.sugestao{
+  height: 8%;
+  width: 100%;
+  margin-top: 10px;
+  background-color: #FFF;
+  display: flex;
+  flex-direction: row;
+}
+.sugestoes{
+  height: 100%;
+  width: 55%;
+  background-color: #FFF;
+}
+.ver{
+  height: 100%;
+  width: 25%;
+  background-color: #FFF;
+  margin-left: 20%;
+
+}
+.outros_perfis{
+  width: 100%;
+  height: 80%;
+  background-color: #FFF;
+}
+.perfilzinho{
+  width: 100%;
+  height: 18%;
+  background-color: #FFF;
+  margin-top: 10px;
+  display: flex;
+  flex-direction: row;
+}
+.pequena_foto{
+  width: 15%;
+  height: 100%;
+  background-color: #FFF;
+}
+.pequena_foto img{
+  width: 100%;
+  height: 100%;
+
+}
+.pequena_descricao{
+  width: 45%;
+  height: 100%;
+  background-color: #FFF;
+}
+.pequeno_seguir{
+  width: 17%;
+  height: 50%;
+  background-color: #FFF;
+  margin-left: 21.5%;
+  margin-top: 10px;
+}
+.pequeno_seguir p{
+  color: #0000FF;
+}
+
+
